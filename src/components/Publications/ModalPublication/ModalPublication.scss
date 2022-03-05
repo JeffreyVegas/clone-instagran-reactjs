@@ -1,0 +1,29 @@
+@import "../../../scss/index.scss";
+
+.comment-publication {
+  height: 600px;
+  display: flex;
+
+  &__image {
+    padding: 0 !important;
+    margin: 0;
+    flex: 1;
+    height: 100% !important;
+    .ui.image {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  &__comments {
+    width: 37% !important;
+    height: 100%;
+    padding: 15px !important;
+    padding-left: 1px !important;
+    padding-right: 12px !important;
+    padding-bottom: 0;
+    display: flex !important;
+    flex-direction: column;
+  }
+}

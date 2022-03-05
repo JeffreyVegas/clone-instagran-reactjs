@@ -1,0 +1,22 @@
+@import "../../../scss/index.scss";
+
+.comment {
+  display: flex;
+  color: $font-dark;
+  padding: 3px;
+  gap: 3px;
+  align-items: center;
+  margin-bottom: 2px;
+  .ui.image {
+    align-self: flex-start;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    padding: 1px;
+  }
+  p {
+    margin: 0 !important;
+  }
+  span {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../../scss/index.scss";
+
+.setting-form {
+  display: flex !important;
+  flex-direction: column !important;
+  .ui.button {
+    background-color: $background-light !important;
+    border-bottom: 1px solid $border-grey !important;
+    font-size: 14px !important;
+    padding: 15px 0;
+    &:hover {
+      background-color: $border-grey !important;
+    }
+  }
+}

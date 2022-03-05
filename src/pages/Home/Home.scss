@@ -1,0 +1,27 @@
+@import "../../scss/index.scss";
+
+.home {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  &__publications {
+    overflow-y: scroll;
+    height: 91vh;
+    padding: 10px 40px !important;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+/* 
+ lista de los que no sigo,
+ lista de los que sigo, lista de los que no sigo,
+ hay un funcion para saber si lo sigo o no, 
+ todos los usuarios, luego comprovaria si los sigo,
+ 
+ si lo sigo - no hacesnada
+ si no lo sigo los pucheas.
+ devuelves.
+*/

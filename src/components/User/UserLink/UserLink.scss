@@ -1,0 +1,23 @@
+@import "../../../scss/index.scss";
+
+.user-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  .ui.image {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50% !important;
+    margin-right: 20px !important;
+  }
+  p {
+    margin: 0;
+    &:first-of-type {
+      color: black;
+      font-weight: bold;
+    }
+    &:last-of-type {
+      color: $font-grey;
+    }
+  }
+}
