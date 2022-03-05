@@ -24,6 +24,7 @@ const PreviewPublication = (props) => {
         show={showModal}
         setShow={setShowModal}
         title={titleModal}
+        settitleModal={settitleModal}
       >
         {childrenModal}
       </Modal>

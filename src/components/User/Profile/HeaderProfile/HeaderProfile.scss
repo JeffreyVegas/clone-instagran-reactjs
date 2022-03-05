@@ -16,14 +16,14 @@
       border: 1px solid $danger !important;
       color: $danger !important;
       &:hover {
-        color: $danger + 15% !important;
+        color: calc($danger + 15%)  !important;
       }
     }
     &.follow {
       border: 1px solid $action !important;
       color: $action !important;
       &:hover {
-        color: $danger + 15% !important;
+        color: calc($danger + 15%) !important;
       }
     }
   }
