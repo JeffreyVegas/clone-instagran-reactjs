@@ -15,15 +15,19 @@
     &.unfollow {
       border: 1px solid $danger !important;
       color: $danger !important;
+      opacity: 0.8 !important;
       &:hover {
-        color: calc($danger + 15%)  !important;
+        color: $danger !important;
+        opacity: 1 !important;
       }
     }
     &.follow {
       border: 1px solid $action !important;
       color: $action !important;
+      opacity: 0.8 !important;
       &:hover {
-        color: calc($danger + 15%) !important;
+        color: $danger !important;
+        opacity: 1 !important;
       }
     }
   }
