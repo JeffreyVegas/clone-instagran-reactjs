@@ -19,13 +19,15 @@ const RightHeader = () => {
 
   if (loading || error) return null;
   const { getUser } = data;
-
+/*
+<Link to="/">
+          <Icon name="home" />
+        </Link>
+*/
   return (
     <>
       <div className="reight-header">
-        <Link to="/">
-          <Icon name="home" />
-        </Link>
+        
         <Icon name="plus" onClick={() => setShowModal(true)} />
         <Link to={`/${auth.username}`}>
           <Image src={getUser.avatar || ImageNotFound} avatar />
