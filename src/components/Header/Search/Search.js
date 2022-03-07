@@ -51,6 +51,7 @@ const Search = () => {
       results={results}
       onResultSelect={handleResultSelect}
       resultRenderer={(e) => <ResultSearch data={e} />}
+      placeholder="Encuentra a tus amigos"
     ></SearchSUI>
   );
 };
