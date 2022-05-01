@@ -41,6 +41,9 @@ const LoginForm = () => {
       <h2 className="login-form-title">
         Inicia para ver las publicaciones de tus amigos
       </h2>
+      <span className="user_default">
+        Puedes usar este: jeffrey@gmail.com - pass: 123456
+      </span>
       <Form className="login-form" onSubmit={formik.handleSubmit}>
         <Form.Input
           type="text"

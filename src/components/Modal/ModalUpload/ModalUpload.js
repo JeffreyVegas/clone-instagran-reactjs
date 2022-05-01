@@ -69,7 +69,7 @@ const ModalUpload = (props) => {
         {!imageUpload && (
           <>
             <Icon name="cloud upload" />
-            <p>Arrastra la foto que quieras publicar</p>
+            <p>Arrastra la imagen hasta aquí o haz clic</p>
           </>
         )}
 

@@ -20,7 +20,7 @@ const Publication = ({ publication }) => {
     <div className="publication">
       <UserLink data={publication.idUser} />
       <div className="publication__body">
-        <Image src={publication.file} />
+        <Image src={publication.file} className="publication__img" />
         <Actions publication={publication} />
         <LastComments comments={getLastComments} />
         <CommentForm publication={publication} refetch={refetch} />
